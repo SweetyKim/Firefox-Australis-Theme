@@ -2,14 +2,6 @@
 Bringing the old Australis UI back to Firefox
 
 ![alt text](assets/images/screen-1.png "Photon Australis Dark Main Window")
-<br />
-<br />
-<br />
-![alt text](assets/images/screen-2.png "Photon Australis Dark Top Bar")
-<br />
-<br />
-<br />
-![alt text](assets/images/default-theme.png "Photon Australis Default Theme")
 
 ## Why?
 I wanted to be able to use a more familiar UI for Firefox, so I branched this project off and made a few modifications.

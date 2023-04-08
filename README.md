@@ -1,7 +1,9 @@
 # Photon Australis
 Bringing the old Australis UI back to Firefox
 
-![alt text](assets/images/screen-1.png "Photon Australis Dark Main Window")
+![alt text](assets/images/Dark.png "Dark Mode")
+
+![alt text](assets/images/Light.png "Light Mode")
 
 ## Why?
 I wanted to be able to use a more familiar UI for Firefox, so I branched this project off and made a few modifications.
@@ -28,5 +30,5 @@ I will be updating this CSS for the latest version of Firefox for Windows 7 if y
 I'll try to fix whatever's broken but I can't guarantee anything
 
 ## FAQ
-### Nothing has changed for me
+### Nothing's changed for me
 Make sure that your file extension for `userChrome.css` is correct. Most likely a problem for Windows, refer to [this issue](https://github.com/wilfredwee/photon-australis/issues/104). 

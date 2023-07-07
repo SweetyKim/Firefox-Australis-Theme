@@ -12,23 +12,20 @@ I wanted to be able to use a more familiar UI for Firefox, so I branched this pr
 I will be updating this CSS for the latest version of Firefox for Windows 7 if you want to install it on older versions or a different OS feel free to use [Wilfredwee's Version](https://github.com/wilfredwee/photon-australis)
 
 ### How to Install:
-1. Go to your Firefox browser, type `about:config` in your url bar.
-1. Search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to `true`
-1. Type `about:profiles` in your url bar.
-1. Under the profile that is in use (The message is something like `This is the profile in use and it cannot be deleted.`), click `Open Folder` on the `Root Directory` row.
-1. If that folder does not have a `chrome` folder, create a folder, name it `chrome`.
-1. In the `chrome` folder, create a file named `userChrome.css`
-1. Determine what Firefox theme you are using:
-    1. Click the icon with 3 lines on the top right corner to open the context Menu.
-    1. Select `Customize`.
-    1. At the bottom left of your screen, select `Themes`.
-    1. Choose or determine which theme you want to use, they can either be `Dark`, `Default`, or `Light`.
-1. Copy and paste the code that matches your Firefox theme: [Dark](./userChrome-dark.css), [Default](./userChrome-default.css), [Light](./userChrome-light.css) into your `userChrome.css` file that you have created.
-1. Restart Firefox and you're done
+1. In the Firefox URL bar, type `about:config`.
+1. Set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`
+1. Open your profile folder.
+    1. Type `about:profiles` in your url bar.
+    1. Under the profile that is in use (The message will say something like `This is the profile in use and it cannot be deleted.`), click `Open Folder` on the `Root Directory` row.
+1. If that folder doesn't have a `chrome` folder, create one.
+1. Download the `userChrome.css` file and place it in your 'chrome' folder.
+1. Restart Firefox and you're done.
 
 ## Something's Broken
-I'll try to fix whatever's broken but I can't guarantee anything
+Feel free to submit an issue and I'll try to fix it as soon as I can.
 
-## FAQ
+Although I'm probably already fixing the issue you're having, as this is the theme for my browser as well.
+
+## Wilfredwee's FAQ 
 ### Nothing's changed for me
-Make sure that your file extension for `userChrome.css` is correct. Most likely a problem for Windows, refer to [this issue](https://github.com/wilfredwee/photon-australis/issues/104). 
+Make sure that your file extension for `userChrome.css` is correct. Most likely a problem for Windows, refer to [this issue](https://github.com/wilfredwee/photon-australis/issues/104).

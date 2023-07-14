@@ -9,7 +9,7 @@ Bringing the old Australis UI back to Firefox
 I wanted to be able to use a more familiar UI for Firefox, so I branched this project off and made a few modifications.
 
 ## ⚠ Support note ⚠:
-I will be updating this CSS for the latest version of Firefox for Windows 7 if you want to install it on older versions or a different OS feel free to use [Wilfredwee's Version](https://github.com/wilfredwee/photon-australis)
+I will be updating this CSS for the latest version of Firefox, (Might Change), if you want to install it on older versions feel free to use [Wilfredwee's Version](https://github.com/wilfredwee/photon-australis)
 
 ### How to Install:
 1. In the Firefox URL bar, type `about:config`.
@@ -18,7 +18,7 @@ I will be updating this CSS for the latest version of Firefox for Windows 7 if y
     1. Type `about:profiles` in your url bar.
     1. Under the profile that is in use (The message will say something like `This is the profile in use and it cannot be deleted.`), click `Open Folder` on the `Root Directory` row.
 1. If that folder doesn't have a `chrome` folder, create one.
-1. Download the `userChrome.css` file and place it in your 'chrome' folder.
+1. Download the `userChrome.css` file and place it in your `chrome` folder.
 1. Restart Firefox and you're done.
 
 ## Something's Broken

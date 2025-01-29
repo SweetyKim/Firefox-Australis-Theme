@@ -302,6 +302,7 @@
 }
 #tabbrowser-tabs {
  border-left-width: 0px !important;
+ margin-bottom: -5px;
 }
 .tabbrowser-tab[pinned] {
   width: 55px;

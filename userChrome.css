@@ -302,7 +302,7 @@
 }
 #tabbrowser-tabs {
  border-left-width: 0px !important;
- margin-bottom: -5px;
+ margin-bottom: -5.5px;
 }
 .tabbrowser-tab[pinned] {
   width: 55px;
@@ -318,6 +318,9 @@
 }
 .tab-context-line{
   margin-bottom: 2px !important;
+}
+.tab-label-container{
+  margin-top: -2px !important;
 }
 /* Color specific customizations */
 @media (prefers-color-scheme: Light) {

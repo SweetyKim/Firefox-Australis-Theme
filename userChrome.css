@@ -414,8 +414,8 @@
     linear-gradient(
       transparent
       2px,
-      rgba(1,1,1,.1) 2px,
-      rgba(1,1,1,.1)
+      rgba(220,220,220,.5) 2px,
+      rgba(220,220,220,.5)
     ),
     none;
 
